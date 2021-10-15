@@ -1,7 +1,61 @@
-/* .container {
-    height: 800px;
+/* reset style */
+body {
+    margin: 0;
+    min-height: 100vh;
 }
- */
+
+/* global styles */
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* header styles */
+header {
+    height: 70px;
+    background-color: cornflowerblue;
+    align-items: center;
+}
+
+header .logo {
+    width: 45px;
+    height: 45px;
+}
+
+header .container {
+    align-items: center;
+}
+
+nav {
+    width: calc(100% - 45px);
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 15px 0;
+    background-color: cornsilk;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+}
+
 /* auth */
 .auth-form-container {
     width: 300px;
@@ -69,4 +123,10 @@
 
 .sex-container {
     display: inline-block;
+}
+
+.body-container {
+    padding: 30px 0;
+    min-height: calc(100vh - 70px - 60px);
+    box-sizing: border-box;
 }
