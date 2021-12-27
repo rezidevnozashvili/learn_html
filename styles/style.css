@@ -1,3 +1,6 @@
+@import url(./fonts.css);
+@import url(./colors.css);
+
 * {
     font-family: 'Noto Sans Georgian', sans-serif;
 }
@@ -25,7 +28,7 @@ body {
 /* header styles */
 header {
     height: 70px;
-    background-color: cornflowerblue;
+    background-color: var(--violet);
     align-items: center;
 }
 
@@ -55,7 +58,7 @@ nav a:hover {
 
 footer {
     padding: 15px 0;
-    background-color: cornsilk;
+    background-color: var(--orange);
     height: 60px;
     box-sizing: border-box;
 }
@@ -116,14 +119,14 @@ footer p {
 }
 
 .btn-primary {
-    background-color: rgb(77, 77, 179);
+    background-color: var(--blue);
     color: white;
 }
 
 .btn-link {
     text-decoration: none;
     line-height: 35px;
-    color: blue;
+    color: var(--violet);
 }
 .btn-link:hover {
     text-decoration: underline;
