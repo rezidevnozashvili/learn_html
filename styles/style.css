@@ -143,11 +143,11 @@ footer p {
 }
 
 /* blog list page styles */
-.main-categories {
-    margin-bottom: 30px;
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    grid-column-gap: 15px;
+
+.blog-main-container {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
 }
 
 .main-category-item {
@@ -200,10 +200,5 @@ footer p {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	gap: 15px;
-}
-
-.blog-body {
-    display: grid;
-    grid-column-gap: 15px;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
+    grid-column: 2 / span 3;
 }
