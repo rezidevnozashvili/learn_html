@@ -3,6 +3,7 @@
 
 * {
     font-family: 'Noto Sans Georgian', sans-serif;
+    box-sizing: border-box;
 }
 
 /* reset style */
@@ -15,6 +16,10 @@ body {
 .container {
     width: 1024px;
     margin: auto;
+}
+
+.view-port-fit {
+    min-height: calc(100vh - (70px + 80px));
 }
 
 .d-flex {
@@ -57,9 +62,12 @@ nav a:hover {
 }
 
 footer {
+    display: flex;
+    align-items: center;
     padding: 15px 0;
     background-color: var(--orange);
     box-sizing: border-box;
+    height: 80px;
 }
 
 footer p {

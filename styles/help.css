@@ -1,3 +1,11 @@
+.help-container {
+    padding-top: 30px;
+}
+
+.help-container h1 {
+    margin-top: 0;
+}
+
 .accordion-container {
     border: 1px solid #ccc;
     border-bottom: 0;
